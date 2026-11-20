@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.kuyubu.game001'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.kuyubu.game001'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
+}
